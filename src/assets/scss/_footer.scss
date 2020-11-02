@@ -1,0 +1,132 @@
+.footer-box {
+    background-color: #1b242f;
+    padding: 80px 0;
+    padding-bottom: 20px;
+
+    .social-box {
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+
+        p {
+            text-align: center;
+            color: honeydew;
+        }
+    }
+
+}
+
+.back-to-top-box {
+    width: 45px;
+    padding: 8px 5px;
+    margin: 0 auto;
+    position: absolute;
+    top: -105px;
+    background-color: #eb3380;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    color:honeydew;
+
+
+    
+    &:hover  {
+        background-color: honeydew;
+        color: #eb3380;
+    }
+}
+
+
+
+.contact-details {
+    width: 300px;
+    color: #04c2c9;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 50px;
+    align-items: center;
+    position: relative;
+
+
+    .mail {
+        display: flex;
+        flex-direction: column;
+
+        i {
+            color: honeydew;
+            margin: 0 10px;
+        }
+        i:first-child {
+            color: honeydew;
+            margin: 10px;
+        }
+
+    }
+
+    .github-icon-footer {
+        margin-top: 50px;
+    }
+
+    .github {
+        display: flex;
+        flex-direction: column;
+        
+        p {
+            margin: 5px 0;
+        }
+    }
+
+
+
+    a {
+        text-decoration: none;
+        color: #04c2c9;
+    }
+}
+
+.social-facebook-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 7px;
+    background-color: #252934;
+    color: honeydew;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+
+    &:hover {
+        background-color: honeydew;
+        color: #252934;
+    }
+}
+
+.social-linkedin-icon {
+    transition: all 0.8s ease;
+    cursor: pointer;
+    padding: 15px;
+    color: honeydew;
+    width: 60px;
+    height: 60px;
+    margin: 0 7px;
+    background-color: #252934;
+
+    &:hover {
+        background-color: honeydew;
+        color: #252934;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .footer-box {
+
+        .social-box {
+            width: 300px;
+        }
+    }
+
+}

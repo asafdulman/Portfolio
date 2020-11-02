@@ -1,0 +1,17 @@
+@import './hero';
+@import './projects';
+@import './projectPreview';
+@import './projectModal';
+@import './about';
+@import './contact';
+@import './footer';
+
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}

@@ -1,0 +1,112 @@
+.contact-box-full {
+    width: 100%;
+    background-color: #252934;
+}
+
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    color: honeydew;
+    padding-bottom: 50px;
+
+    input {
+        width: 400px;
+        background-color: #1e242c;
+        border: none;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+        outline: none;
+        color: honeydew;
+    }
+    
+    textarea  {
+        outline: none;
+        font-size: 1rem;
+        width: 400px;
+        padding: 10px;
+        background-color: #1e242c;
+        border: none;
+        font-family: 'Raleway', sans-serif;
+        color: honeydew;
+        resize: none;
+
+    }
+
+    h1 {
+        
+        font-size: 2.5rem;
+        margin: 40px auto 0;
+        padding: 10px 0 ;
+    }
+
+    p {
+        color: #04c2c9;
+        text-align: center;
+        margin: 25px 0;
+    }
+
+    .border {
+        height: 5px;
+        width: 70px;
+        margin: 10px auto 30px;
+        background-color: honeydew;
+    }
+    
+    .contact-btn {
+        padding: 10px 15px;
+        font-size: 1.2rem;
+        color: honeydew;
+        border: 2px solid honeydew;
+        background-color: transparent;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        margin: 15px auto;
+        cursor: pointer;
+        transition: all 0.5s ease;
+
+        &:hover {
+            background-color: honeydew;
+            color: #1e242c;
+        }
+        
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-box {
+        width: 400px;
+    }
+}
+@media (max-width: 440px) {
+
+
+
+    .contact-box {
+        width: 360px;
+        text-align: center;
+
+        p {
+            width: 280px;
+            margin: 25px auto;
+        }
+        
+        input {
+            width: 300px;
+        }
+        
+        textarea {
+            
+            width: 300px;
+        }
+    }
+
+
+
+}
