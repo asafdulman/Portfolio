@@ -1,9 +1,9 @@
 import { projService } from '../services/projService'
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { ProjPreview } from './ProjPreview';
 
 export default function Projects({openModal}) {
-    const [projects, setProjects] = useState(projService.query());
+    const [projects] = useState(projService.query());
 
     return (
         <div className="full">

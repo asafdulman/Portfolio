@@ -5,6 +5,7 @@ export function Contact() {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
+    const [isMessageModal, setIsMessageModal] = useState(false)
 
 
 
@@ -25,7 +26,12 @@ export function Contact() {
             message
            }
            mailService.submit(templateParams)
+           setIsMessageModal(true)
+           setTimeout(() => {
+            setIsMessageModal(false)
+           }, 2000);
            setName('')  
+            console.log('isMessageModal', isMessageModal);
            setEmail('')
            setMessage('')
     }
@@ -35,12 +41,13 @@ export function Contact() {
     return (
         <div className="contact-box-full">
             <div className="contact-box">
+                    {isMessageModal && <div className="message-modal">Message sent!</div>}
                 <form action="mailto:asafdulman@gmail.com">
                     <h1>Contact</h1>
                     <div className="border"></div>
                     <p>Have a question or just want to chat? Feel free to reach out</p>
                     <input onInput={handleInput} value={name} autoComplete="off" name="name" placeholder="Name" type="text" />
-                    <input onInput={handleInput} value={email} autoComplete="off" name="email" placeholder="Mail" type="email" />
+                    <input onInput={handleInput} value={email} autoComplete="off" name="email" placeholder="Email" type="email" />
                     <textarea onInput={handleInput} value={message} name="message" placeholder="Your message" cols="30" rows="10"></textarea>
                     <button onClick={onSubmit} type="submit" className="contact-btn">SUBMIT</button>
                 </form>

@@ -92,26 +92,28 @@
         width: 300px;
     }
 }
-@media (max-width: 660px) {
-    .project-preview {
-        width: 250px;
-    }
-}
+
 @media (max-width: 660px) {
     .project-preview {
         width: 500px;
         margin-bottom: 20px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+
     }
 }
 @media (max-width: 530px) {
     .project-preview {
         width: 360px;
         margin-bottom: 20px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+
     }
 }
 @media (max-width: 400px) {
     .project-preview {
         width: 340px;
         margin-bottom: 20px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+
     }
 }
