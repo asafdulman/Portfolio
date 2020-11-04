@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/asafdulman/Portfolio/static/css/main.070eb0d2.chunk.css",
+    "main.css": "/asafdulman/Portfolio/static/css/main.6c82f7dc.chunk.css",
     "main.js": "/asafdulman/Portfolio/static/js/main.95980f2d.chunk.js",
     "main.js.map": "/asafdulman/Portfolio/static/js/main.95980f2d.chunk.js.map",
     "runtime-main.js": "/asafdulman/Portfolio/static/js/runtime-main.9cfa23f1.js",
@@ -10,7 +10,7 @@
     "static/js/3.38a1ed5b.chunk.js": "/asafdulman/Portfolio/static/js/3.38a1ed5b.chunk.js",
     "static/js/3.38a1ed5b.chunk.js.map": "/asafdulman/Portfolio/static/js/3.38a1ed5b.chunk.js.map",
     "index.html": "/asafdulman/Portfolio/index.html",
-    "static/css/main.070eb0d2.chunk.css.map": "/asafdulman/Portfolio/static/css/main.070eb0d2.chunk.css.map",
+    "static/css/main.6c82f7dc.chunk.css.map": "/asafdulman/Portfolio/static/css/main.6c82f7dc.chunk.css.map",
     "static/js/2.3b19c86c.chunk.js.LICENSE.txt": "/asafdulman/Portfolio/static/js/2.3b19c86c.chunk.js.LICENSE.txt",
     "static/media/idea.73af9072.svg": "/asafdulman/Portfolio/static/media/idea.73af9072.svg",
     "static/media/profile.d656d524.jpg": "/asafdulman/Portfolio/static/media/profile.d656d524.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.9cfa23f1.js",
     "static/js/2.3b19c86c.chunk.js",
-    "static/css/main.070eb0d2.chunk.css",
+    "static/css/main.6c82f7dc.chunk.css",
     "static/js/main.95980f2d.chunk.js"
   ]
 }
